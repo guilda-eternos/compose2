@@ -314,7 +314,7 @@ services:
     command: [ "start", "--main-service", "/home/deno/functions/main" ]
 
   analytics:
-    image: supabase/logflare:1.12.0
+    image: supabase/logflare:1.10.0
     restart: unless-stopped
     # Uncomment to use Big Query backend for analytics
     # volumes:
